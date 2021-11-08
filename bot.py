@@ -4,10 +4,7 @@ key='API KEY'
 secret='API SECRET'
 consumer_key='ACCESS KEY'
 consumer_secret='ACCESS SECRET'
-key='1393886621729271815-MSUMYiX5E7dOqv688WtlRDL861LVEg'
-secret='kRPXGNrEecnKUTg1n0Xm4nxFQ22loyuoKkFdbjzSYdskM'
-consumer_key='JR6B8K1QWpYeMqMKYAiGkIF3l'
-consumer_secret='A83zp1kFCtrBTNmpwNnxXWRLRTsSshmRkRkl9MV29Bu7DYkBZm'
+
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(key, secret)
 
